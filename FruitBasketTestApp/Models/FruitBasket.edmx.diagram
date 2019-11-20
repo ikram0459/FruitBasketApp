@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd1f5da80ea94127826e28f7bb7946fb" Name="Diagram1">
+        <EntityTypeShape EntityType="FruitBasketDbModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.AspNetRole" Width="1.5" PointX="7.75" PointY="2.5" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.AspNetUserClaim" Width="1.5" PointX="12.25" PointY="1" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.AspNetUserLogin" Width="1.5" PointX="12.25" PointY="3.75" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.AspNetUser" Width="1.5" PointX="10" PointY="1.375" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.Basket" Width="1.5" PointX="5.25" PointY="5.75" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.OrderDetail" Width="1.5" PointX="5.25" PointY="2.5" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.Order" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.ProductCatagory" Width="1.5" PointX="0.75" PointY="2.875" />
+        <EntityTypeShape EntityType="FruitBasketDbModel.Product" Width="1.5" PointX="3" PointY="2.5" />
+        <AssociationConnector Association="FruitBasketDbModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="FruitBasketDbModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="FruitBasketDbModel.FK_dbo_Baskets_dbo_Products_ProductId" />
+        <AssociationConnector Association="FruitBasketDbModel.FK_dbo_OrderDetails_dbo_Orders_OrderId" />
+        <AssociationConnector Association="FruitBasketDbModel.FK_dbo_OrderDetails_dbo_Products_ProductId" />
+        <AssociationConnector Association="FruitBasketDbModel.FK_dbo_Items_dbo_Catagories_ProductCategoryTypeId" />
+        <AssociationConnector Association="FruitBasketDbModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
