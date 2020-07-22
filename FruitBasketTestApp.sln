@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasketTestApp", "FruitBasketTestApp\FruitBasketTestApp.csproj", "{58F4D438-39C2-409A-A77A-A18C2B4614E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasketTestApp.Tests", "FruitBasketTestApp.Tests\FruitBasketTestApp.Tests.csproj", "{6CFAFB81-AC19-491A-8665-8AF34E56CD8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spike-App-that-does-auth", "Spike-App-that-does-auth", "{B2AA4CE3-1B3B-4945-9E46-99FCA1A01FF0}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9817869-CC56-41DD-AD8D-B23AFAE38BFF}
 	EndGlobalSection
 EndGlobal

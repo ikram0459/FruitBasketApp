@@ -20,3 +20,5 @@ o	Shipping Address
 •	Avoid SQL injection attacks
 •	Include appropriate unit tests 
 Any libraries/frameworks may be used, but the application should be written using .NET platform.
+
+Test1 - git.netcoreapp
